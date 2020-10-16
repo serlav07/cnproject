@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+*{font-size: 25px;
+}
+body{
+    margin:0;
+}
+.head {
+    font-size: 50px;}
+.header {
+    text-align: left;
+}
+.logo {
+    padding: 25px 100px 10px 40px;
+}
+.includer { display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.script {display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.group1 {
+    align-self: flex-start;
+    width: 50vw;
+    padding:5px 30px 80px 100px;
+    margin:30px; 
+}
+.group2 {
+    align-self: center;
+    width: 50vw;
+    padding:5px 30px 80px 100px;
+    margin:15px; 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    height: 70px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a{
+    margin: 10px;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    text-align: center;
+    width:40vw;
+    padding:15px;
+    margin:10px;
+}
+div {
+    color: white;
+}
+body {
+    background-image: url(buildingnew.jpg);
+}
+.playwrights {
+    background-image: url(buildingnew.jpg);
+}
+.about {
+    background-image: url(buildingnew.jpg);
+}
+.contact {
+    background-image: url(buildingnew.jpg);
+}
+.large {
+    font-size: 50px;
+}
+p,p,p .center{
+    text-align: center;
+}
+
+h1, h2, h2 .center {
+    text-align: center;
+}
+#head2 { 
+    font-size: 30px;
+}
+div.box {
+    margin: 5px ;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+}
+div.box:hover {
+    border:1px solid #777 ;
+}
+div.box img {
+    width: 200;
+    height: 300;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.form {
+    display: block;
+    margin-top: 0cm;
+}
+.endnote {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.foot1 {
+    align-self: center;
+}
+.foot2 {
+    color: white;}
